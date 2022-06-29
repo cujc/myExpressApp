@@ -1,4 +1,8 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/55f548ef-05cb-47a3-808d-314e24cf56a0/microsoft.web/sites/subscriptions/55f548ef-05cb-47a3-808d-314e24cf56a0/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/cujcweb",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }
